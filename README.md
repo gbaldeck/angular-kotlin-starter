@@ -15,6 +15,12 @@ This app uses the following libraries together:
     - Kotlin
     - Onsenui Angular components
     - Webpack (with a modified version of huston007's kotlin-loader)
+    
+Also, note that the current output bundle size is huge, after taking it through minification and the new
+Kotlin-js dead code elimination tool the size should be reduced dramatically.
+
+https://discuss.kotlinlang.org/t/a-new-dead-code-elimination-tool-for-js/3777
+
 
 To setup the project do:
 
