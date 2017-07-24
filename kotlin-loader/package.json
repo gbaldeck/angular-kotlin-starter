@@ -1,0 +1,36 @@
+{
+  "name": "webpack-kotlin-loader",
+  "version": "0.3.2",
+  "description": "Webpack loader that allows importing kotlin files in JS",
+  "main": "loader.js",
+  "scripts": {
+    "compile-simple": "rm -rf examples/simple/dist && webpack --config examples/simple/webpack.config",
+    "test": "bash ./acceptance-test.sh"
+  },
+  "keywords": [
+    "webpack",
+    "kotlin",
+    "loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huston007/kotlin-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huston007/kotlin-loader/issues"
+  },
+  "homepage": "https://github.com/huston007/kotlin-loader#readme",
+  "author": "Andrey Skladchikov",
+  "license": "MIT",
+  "devDependencies": {
+    "kotlin": "1.1.0",
+    "webpack": "^2.4"
+  },
+  "engines": {
+    "node": ">=5.5"
+  },
+  "dependencies": {
+    "loader-utils": "1.0.2",
+    "source-map-resolve": "0.5.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "angular-kotlin-starter",
+    "displayName": "angular-kotlin-starter",
+    "version": "1.0.0",
+    "description": "A sample app using my angular-kotlin wrapper.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "serve": "webpack-dev-server --open"
+    },
+    "author": "GrahamB",
+    "license": "MIT",
+    "dependencies": {
+        "@angular/common": "4.2.6",
+        "@angular/compiler": "4.2.6",
+        "@angular/core": "4.2.6",
+        "@angular/forms": "4.2.6",
+        "@angular/http": "4.2.6",
+        "@angular/platform-browser": "4.2.6",
+        "@angular/platform-browser-dynamic": "4.2.6",
+        "@angular/router": "4.2.6",
+        "core-js": "2.4.1",
+        "kotlin": "1.1.4-eap-11",
+        "ngx-onsenui": "4.0.0-rc.1",
+        "onsenui": "2.4.2",
+        "rxjs": "5.4.2",
+        "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+        "copy-dir": "^0.3.0",
+        "cp": "^0.2.0",
+        "cp-cli": "^1.0.2",
+        "css-loader": "^0.28.4",
+        "file-loader": "^0.11.2",
+        "html-loader": "^0.4.5",
+        "ncp": "^2.0.0",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "source-map-resolve": "^0.5.0",
+        "style-loader": "^0.18.2",
+        "webpack": "3.1.0",
+        "webpack-dev-server": "^2.6.1"
+    }
+}

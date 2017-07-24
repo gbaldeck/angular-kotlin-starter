@@ -1,0 +1,9 @@
+/web
+/.gradle
+/.idea
+/build
+*.iml
+/test_browser/build
+/node_modules
+/platforms
+/plugins
