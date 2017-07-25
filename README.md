@@ -9,6 +9,11 @@ First, glance through this post on stack overflow so you get a better understand
 Then look at the classes in the io.angular.sample.wrapper package to see how to use a
 decorator in Kotlin.
 
+To be more specific, look at line 141 of Component.kt to see the @Component decorator being used.
+In this case it is renamed to NgComponent and is imported in the Angular.kt file in the io.angular.sample.external package.
+
+Each class in the io.angular.sample.wrapper package uses their corresponding decorators in the initialize() extension function.
+
 This app uses the following libraries together:
 
     - Angular 4
