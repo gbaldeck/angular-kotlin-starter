@@ -14,6 +14,8 @@ In this case it is renamed to NgComponent and is imported in the Angular.kt file
 
 Each class in the io.angular.sample.wrapper package uses their corresponding decorators in the initialize() extension function.
 
+---
+
 This app uses the following libraries together:
 
     - Angular 4
